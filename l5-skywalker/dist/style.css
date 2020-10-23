@@ -1,0 +1,90 @@
+heading{
+  display: flex;
+  height: 400px;
+  margin-bottom: 20px;
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  align-items: flex-end;
+  justify-content: center;
+}
+titletext {
+  width: 800px;
+  padding-left: 30px;
+  font-family: 'Abril Fatface';
+  font-size: 26px;
+  color: #222;
+}
+titletext h1 {
+  font-size: 75px;
+  margin: -10px 0px 20px;
+}
+
+page{
+  display: block;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+/* main {
+  display: inline;
+} */
+
+container {
+  display: block;
+  padding-left: 30px;
+  padding-right: 20px;
+/*   border: 5px solid black; */
+}
+.container-first{
+  font-size: 19px;
+}
+
+quote{
+  width: 100%;
+  padding: 40px;
+/*   border: 5px solid green; */
+  margin: 40px 0px 40px;
+  display: flex;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 47px;
+  background-color: #222;
+  box-sizing: border-box;
+}
+quote::before{
+  content: "\275D";
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+page h2 {
+  margin: 30px 0px 40px;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+page h3 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.with-subtitles{
+  margin-bottom: 0px;
+}
+.subtitles{
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+.container-last{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid;
+}

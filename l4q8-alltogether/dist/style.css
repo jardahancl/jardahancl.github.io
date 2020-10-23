@@ -1,0 +1,65 @@
+page {
+  display: flex;
+  justify-content: center;
+}
+center {
+  width: 500px;
+/*   border: 5px solid black; */
+/*   display: flex; */
+/*   position: absolute; */
+}
+
+header {
+  width: inherit;
+  height: 100px;
+  top: 0;
+  background-color: aqua;
+  position: fixed;
+  z-index: 1;
+/*   border: 5px solid black; */
+}
+
+flexbox {
+  height: 300px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+/*   border: 5px solid black; */
+/*   position: relative; */
+}
+.blackbox {
+  
+}
+
+main {
+  width: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: red;
+  position: relative;
+}
+.blackbox {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.leftbar {
+  width: 100px;
+  background-color: orange;
+}
+.rightbar {
+  width: 100px;
+  background-color: purple;
+}
+
+footer {
+  width: inherit;
+  height: 100px;
+  background-color: blue;
+/*   border: 5px solid black; */
+}

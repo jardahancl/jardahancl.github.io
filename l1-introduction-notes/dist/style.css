@@ -1,0 +1,20 @@
+body {
+  font-family: chilanka;
+}
+
+h2, h3 {
+  background: orange;
+  color: white;
+  /*Color chosen same with the background*/
+  font-size: 25px;
+  padding: 20px;
+  border: 5px dashed black;
+  margin: 10px;
+  width: 300px;  
+}
+
+.red {
+  color: red;
+  font-size: 25px;
+  text-shadow: #FC0 1px 0 10px;
+}

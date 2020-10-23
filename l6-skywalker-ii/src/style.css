@@ -1,0 +1,159 @@
+flexbox{
+  display: flex;
+  justify-content: center;
+}
+main{
+  display: block;
+  width: 800px;
+  background-color: #7FDBFF;
+  border-radius: 10px;
+}
+
+
+topbar {
+  width: 800px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #85144B;
+  z-index: 1;
+  border-radius: 10px;
+}
+topbar a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+/*   font-weight: bold; */
+  font-size: 20px;
+}
+topbar a:hover {color: #7FDBFF;}
+topbar a:visited {color: black}
+
+
+part{
+  display: flex;
+  padding-top: 60px;
+}
+
+div{
+  width: 45%;
+  display: block;
+/*   border: 5px solid green; */
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.bio{
+  display: flex;
+  height: 480px;
+  margin-bottom: 20px;
+  background: center url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: auto 100%;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+titletext {
+/*   width: 800px; */
+  padding-left: 100px;
+  font-family: 'Abril Fatface';
+  font-size: 22px;
+  color: #222;
+  box-sizing: border-box;
+}
+titletext h1 {
+  font-size: 75px;
+  margin: -10px 0px 20px;
+}
+
+container {
+  display: block;
+  width: 60%;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+  padding: 15px;
+/*   border: 5px solid black; */
+}
+.container-first{
+  font-size: 19px;
+}
+
+container h2 {
+  margin: 30px 0px 40px;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+container h3 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+.with-subtitles{
+  margin-bottom: 0px;
+}
+.subtitles{
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+quote{
+  width: 100%;
+  padding: 40px;
+/*   border: 5px solid green; */
+  border-radius: 10px;
+  margin: 0px;
+  display: flex;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #7FDBFF;
+  font-size: 47px;
+  background-color: #85144B;
+  box-sizing: border-box;
+}
+quote::before{
+  content: "\275D";
+  font-size: 100px;
+  color: #7FDBFF;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* page{
+  display: block;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+container {
+  display: block;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.container-first{
+  font-size: 19px;
+}
+
+.container-last{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid;
+} */
