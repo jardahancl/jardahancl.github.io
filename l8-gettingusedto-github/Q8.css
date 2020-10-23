@@ -1,0 +1,28 @@
+body {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* position: center; */
+}
+
+div {
+    width: 100%;
+    display: flex;
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+.colorcolor {
+    background-color: red;    
+}
+
+p {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: 10px;
+}
+.new {
+    background-color: purple;    
+}
