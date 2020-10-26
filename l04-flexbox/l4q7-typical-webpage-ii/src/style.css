@@ -1,0 +1,69 @@
+.web {
+  position: relative;
+/*   width: 100%; */
+/*   top: 0; */
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  top: 0;
+  background-color: purple;
+  display: flex;
+/*   justify-content: flex-start; */
+/*   place-content: start space-between; */
+  column-gap: 15px;
+  align-items: center;
+  position: fixed;
+  padding-left: 100px;
+  padding-right: 100px;
+  z-index: 1;
+/*   border: 5px solid black; */
+  box-sizing: border-box;
+}
+
+.title-one {
+  width: 100px;
+  height: 30px;
+/*   margin: 10px; */
+  background-color: cyan;
+}
+.title-two {
+  width: 150px;
+  height: 30px;
+/*   margin: 10px; */
+  background-color: cyan;
+}
+
+section {
+/*   width: 100%; */
+/*   display: block;   */
+  position: relative;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+middle {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 10px;
+/*   border: 5px solid black; */
+/*   box-sizing: border-box; */
+}
+
+.main {
+  flex-grow: 3;
+  background-color: yellow;
+}
+.left-bar {
+  flex-grow: 1;
+  background-color: lime;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: lightgrey;
+}

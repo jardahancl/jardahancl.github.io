@@ -1,0 +1,35 @@
+.heading {
+  width: 100%;
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+
+.title-one {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: cyan;
+}
+.title-two {
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  background-color: cyan;
+}
+
+.page {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.main {
+  width: 70%;
+  background-color: yellow;
+}
+.right-bar {
+  width: 30%;
+  background-color: lime;
+}

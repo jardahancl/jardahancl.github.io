@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  font-family: 'Sen', sans-serif;
+/*   justify-content: space-between; */
+/*   border: 5px solid black; */
+}
+
+.card {
+  display: block;
+  text-align: center;
+/*   border: 5px solid black; */
+  margin: 20px;
+}
+
+.obr{
+  width: 200px;
+  margin: 0px;
+}
+
+h3 {
+  margin-top: 0px
+}

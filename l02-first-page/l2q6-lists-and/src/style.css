@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: purple;
+}
+h1, h2 {
+  text-shadow: 1px 0 2px;
+}
+
+.roman {
+  list-style-type: upper-roman;
+}
+.magenta {
+  color: magenta;
+}
+.magenta, .under {
+  text-decoration-line: underline;
+}
+
+/* .claude {
+  background-color: red;
+} */

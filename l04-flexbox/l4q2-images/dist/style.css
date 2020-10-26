@@ -1,0 +1,12 @@
+div {
+  display: flex;
+}
+
+.obr {
+  width: 100px;
+  margin: 50px;
+}
+.obr:hover {
+  width: 200px;
+  margin: 0px;
+}
